@@ -16,4 +16,6 @@ variable "parameters" {
   default = []
 }
 
-variable "repository" {}
+variable "repository" {
+  default = null
+}
